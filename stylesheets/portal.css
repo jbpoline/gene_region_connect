@@ -1,0 +1,407 @@
+@charset "utf-8";
+/* CSS Document */
+/* All portal styles are prefixed by lower-case "p" */
+
+/* header, includes everything from top of page down to the horizontal tab bar */
+#pHeader {
+    background-color:#FFFFFF;
+}
+
+#pLogo {
+    position: inline;
+    float: left;
+}
+
+/* Site Search container, encloses text field and pushbutton */
+.pSiteSearch {
+    position: inline;
+    float: right;
+    width:265px;
+    text-align:center; /* for horizontal centering */
+    white-space: nowrap;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+/* Search button, either site or project specific */
+.pSearch {
+    position:relative;
+    color: #FFFFFF;
+    background-color: #639A3C;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border-bottom:solid 1px #7c7c7c;
+    border-right:solid 1px #7c7c7c;
+    border-top:solid 1px #ddd;
+    border-left:solid 1px #ddd;
+    cursor:pointer;
+}
+
+/* common style for all tabs */
+#pTabContainer {
+    position: relative;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* default (unselected) tab font color */
+.pTabDefault {
+    color: #014F7D;
+    border-style: none;
+}
+
+/* selected tab font color */
+.pTabSelected {
+    color:#FFFFFF;
+    border: 1px solid #4D6D86;
+}
+
+/* Home tab */
+#pHome {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* Mouse Brain tab */
+#pMouseBrain {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* Mouse Connectivity tab */
+#pMouseConnectivity {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* Developing Mouse Brain tab */
+#pDevelopingMouseBrain {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* Human Brain tab */
+#pHuman {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* More Projects tab */
+#pMoreProjects {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* More Projects: Developing Human Brain tab */
+#pDevelopingHumanBrain {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+    width:155px;
+}
+
+/* More Projects: Sleep tab */
+#pSleep {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+}
+
+/* More Projects: Mouse Spinal Cord tab */
+#pMouseSpinalCord {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+    width:120px;
+}
+
+/* More Projects: Mouse Diversity tab */
+#pMouseDiversity {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+    width:120px;
+}
+
+/* More Projects: Non-Human Primate tab */
+#pNonHumanPrimate {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+    width:120px;
+}
+
+/* More Projects: Glioblastoma tab */
+#pGlioblastoma {
+    position:inline;
+    float: left;
+    white-space: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 1px 5px 4px 5px;
+    line-height:1.5em; /* use this to do a fake vertical centering of the text */
+    text-align:center;
+    width:120px;
+}
+
+/* More Projects drop down/popup menu */
+/* font styles should be identical to the tabs */
+.pDropDownMenu{
+    position:absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    border:1px solid black;
+    border-bottom-width: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight: normal;
+    line-height:18px;
+    z-index:100001;
+    width: 160px;
+    background-color: #EEEEEE;
+}
+
+.pDropDownMenu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pDropDownMenu ul li a{
+    width: 100%;
+    display: block;
+    text-indent: 3px;
+    border-bottom: 1px solid black;
+  padding: 2px 0;
+    text-decoration: none;
+    font-weight: bold;
+  text-indent: 5px;
+}
+
+.pDropDownMenu ul li a:link {
+    color:#014F7D;
+}
+
+.pDropDownMenu ul li  a:visited {
+    color:#014F7D;
+}
+
+.pDropDownMenu ul li  a:hover {
+    color:#639A3C;
+}
+
+/* Footer */
+#pFooter {
+    position:relative;
+    text-align:center;
+    width:100%;
+    height:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #666666;
+}
+
+/* hyperlink styles for link, visited, hover */
+.pLink a:link {
+    color:#014F7D;
+    text-decoration:none;
+}
+
+.pLink a:visited {
+    color:#014F7D;
+    text-decoration:none;
+}
+
+.pLink a:hover {
+    color:#639A3C;
+    text-decoration:none;
+}
+
+/* When "More" menu is selected use these link styles
+ * This will override .pLink settings
+ * Odd name pairs with "menuanchorclass" which is defined by AnyLink JS Drop Down Menu v2.0
+ */
+#menuanchorlink:link {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#menuanchorlink:visited {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#menuanchorlink:hover {
+    color:#639A3C;
+    text-decoration:none;
+}
+
+/* tab bar for application menu, appears below the individual tabs */
+#pTabBar {
+    background-color: #4D6D86;
+    color:#ffffff;
+    padding: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+}
+
+#pTabBar a {
+    color:#fff;
+    text-decoration:none;
+    background-color: #4D6D86;
+    padding-left: 10px;
+    padding-right:10px;
+    text-align:center;
+    border: solid 1px #4D6D86;
+}
+
+#pTabBar a:hover {
+    background-color:#639A3C;
+    border: solid 1px #fff;
+}
+
+#pTabBar a.pTabBarSelected {
+    color:#fff;
+    border: solid 1px #fff;
+}
+
+/* common styles */
+a {
+    text-decoration:none;
+    color:#0079C0;
+}
+
+a:hover {
+    color:#639A3C;
+}
+
+a:visited {
+    color:#5959DF;
+}
+
+div.pageContent {
+	width:860px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	padding:0px;
+	position:relative;
+	min-height:80%;
+	_height:94%;
+}
+
+div.sectionHeader {
+    font-weight:bold;
+    color:#ffffff;
+    margin-top:-4px;
+    margin-left:-4px;
+    _margin-right:-4px;
+    width:100%;
+    background-color:#31506C;
+    padding:4px;
+    border-bottom:1px solid #31506C;
+}
+
+div.contentBlock {
+    border:1px solid #31506C;
+    background-color:#ffffff;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:auto;
+    padding:4px;
+}
+
+div.comment {
+    color: #626166;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    text-align:left;
+    border-bottom:dotted 1px #8B8B8B;
+}
+
+.heading {
+    color: #0079C0;
+}
